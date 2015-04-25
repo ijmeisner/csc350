@@ -11,14 +11,14 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #339966;
-  background-color: #339966; }
+  background: #666666;
+  background-color: #666666; }
 
 .reveal {
   font-family: 'Lato', sans-serif;
   font-size: 36px;
   font-weight: normal;
-  color: #000; }
+  color: #DAA520; }
 
 ::selection {
   color: #fff;
@@ -63,7 +63,8 @@ body {
  *********************************************/
 .reveal p {
   margin: 20px 0;
-  line-height: 1.3; }
+  line-height: 1.3;
+  text-align: left;}
 
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img, .reveal video, .reveal iframe {
@@ -219,28 +220,28 @@ body {
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
-  border-right-color: #FFFF99; }
+  border-right-color: #DAA520; }
 
 .reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {
-  border-left-color: #FFFF99; }
+  border-left-color: #DAA520; }
 
 .reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #FFFF99; }
+  border-bottom-color: #DAA520; }
 
 .reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
-  border-top-color: #FFFF99; }
+  border-top-color: #DAA520; }
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #FFFFCC; }
+  border-right-color: #DAA520; }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #FFFFCC; }
+  border-left-color: #DAA520; }
 
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #FFFFCC; }
+  border-bottom-color: #DAA520; }
 
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #FFFFCC; }
+  border-top-color: #DAA520; }
 
 /*********************************************
  * PROGRESS BAR
